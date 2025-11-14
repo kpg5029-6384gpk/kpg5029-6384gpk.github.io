@@ -16,14 +16,15 @@
 }
 
 .ds4 .triggers {
-    width: 588px;
+    width: 553px;
     height: 90px;
     position: absolute;
-    left: 109px;
+    left: 113px;
+    top: 12px;
 }
 
 .ds4 .trigger {
-    width: 99px;
+    width: 97px;
     height: 100%;
     background: url(triggers.png);
     opacity: 0;
@@ -39,18 +40,18 @@
 }
 
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
+    width: 97px;
+    height: 22px;
     background: url(bumper.png) no-repeat;
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
+    width: 554px;
     height: 23px;
-    left: 109px;
-    top: 94px;
+    left: 114px;
+    top: 107px;
 }
 
 .ds4 .bumper.pressed {
@@ -68,12 +69,24 @@
     transform: rotateY(180deg);
 }
 
+.ds4 .touchpad {
+    width: 262px;
+    height: 151px;
+    position: absolute;
+    left: 272px;
+    top: 122px;
+}
+
+.ds4 .touchpad.pressed {
+    background: url(touchpad.png) no-repeat center;
+}
+
 .ds4 .meta {
     width: 42px;
     height: 42px;
     position: absolute;
-    left: 382px;
-    bottom: 216px;
+    left: 369px;
+    bottom: 218px;
 }
 
 .ds4 .meta.pressed {
@@ -155,32 +168,34 @@ background-position: 0 -70px;
 
 .ds4 .a {
     background-position: 0 0;
-    bottom: 0;
-    left: 58px;
+    top: 112px;
+    left: 31px;
 }
 
 .ds4 .b {
     background-position: -57px 0;
     top: 58px;
-    right: 0px;
+    right: 31px;
 }
 
 .ds4 .x {
     background-position: -113px 0;
     top: 58px;
+    right: 137px;
 }
 
 .ds4 .y {
     background-position: 55px 0;
-    left: 58px;
+    left: 31px;
+    top: 1px;
 }
 
 .ds4 .sticks {
     position: absolute;
-    width: 361px;
+    width: 356px;
     height: 105px;
-    top: 308px;
-    left: 228px;
+    top: 301px;
+    left: 218px;
 }
 
 .ds4 .stick {
@@ -233,25 +248,25 @@ background-position: 0 -70px;
 
 .ds4 .face.up {
     left: 44px;
-    top: 0;
+    top: 5px;
     background-position: -37px 0px;
 }
 
 .ds4 .face.down {
-    left: 44px;
-    bottom: 0;
+    left: 43.5px;
+    bottom: -1px;
     background-position: 0px 0;
 }
 
 .ds4 .face.left {
-    top: 45px;
-    left: 0;
+    top: 47px;
+    left: 0px;
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
-    right: 0px;
+    top: 47px;
+    right: 02px;
     background-position: 52px 0;
 }
 
