@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(base.png);
+    background: url(base.gif);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -69,7 +69,7 @@
 }
 
 .ds4 .touchpad {
-    background: url(touchpad.png);
+    background: url(touchpad.gif);
     width: 262px;
     height: 151px;
     position: absolute;
@@ -275,3 +275,4 @@ background-position: 0 -70px;
 
 
 /*END PS4 Controller Styling*/
+
