@@ -71,11 +71,11 @@
 
 .ds4 .touchpad {
     background: url(touchpad.gif);
-    width: 197px;
+    width: 264px;
     height: 151px;
     position: absolute;
-    left: 282px;
-    top: 122px;
+    left: 261px;
+    top: 132px;
 }
 
 .ds4 .meta {
