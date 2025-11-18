@@ -11,8 +11,10 @@
     background: url(disconnected.png);
 }
 
-.ds4.disconnected div {
-    display: none;
+.ds4.disconnected {
+    Height: 543px;
+    width: 700px;
+    background: url(disconnected.png);
 }
 
 .ds4 .triggers {
@@ -276,3 +278,4 @@ background-position: 0 -70px;
 
 
 /*END PS4 Controller Styling*/
+
