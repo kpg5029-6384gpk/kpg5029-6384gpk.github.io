@@ -1,8 +1,8 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(base.gif);
-    height: 598px;
-    width: 806px;
+    height: 613px;
+    width: 789px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
@@ -16,10 +16,11 @@
 }
 
 .ds4 .triggers {
-    width: 588px;
+    width: 580px;
     height: 90px;
     position: absolute;
-    left: 109px;
+    left: 105px;
+    top: 2px;
 }
 
 .ds4 .trigger {
@@ -47,10 +48,10 @@
 
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
+    width: 578px;
     height: 23px;
-    left: 109px;
-    top: 94px;
+    left: 107px;
+    top: 97px;
 }
 
 .ds4 .bumper.pressed {
@@ -70,10 +71,10 @@
 
 .ds4 .touchpad {
     background: url(touchpad.gif);
-    width: 262px;
+    width: 197px;
     height: 151px;
     position: absolute;
-    left: 272px;
+    left: 282px;
     top: 122px;
 }
 
@@ -146,8 +147,8 @@ background-position: 0 -70px;
     position: absolute;
     width: 170px;
     height: 171px;
-    top: 159px;
-    left: 567px;
+    top: 164px;
+    left: 555px;
 }
 
 .ds4 .button {
@@ -186,17 +187,17 @@ background-position: 0 -70px;
 
 .ds4 .sticks {
     position: absolute;
-    width: 361px;
+    width: 356px;
     height: 105px;
-    top: 308px;
-    left: 228px;
+    top: 317px;
+    left: 223px;
 }
 
 .ds4 .stick {
     position: absolute;
     background: url(sticks.png);
     height: 94px;
-    width: 94px;
+    width: 95px;
 }
 
 .ds4 .stick.pressed.left {
@@ -221,8 +222,8 @@ background-position: 0 -70px;
     position: absolute;
     width: 125px;
     height: 126px;
-    top: 181px;
-    left: 92px;
+    top: 188px;
+    left: 89px;
 }
 
 .ds4 .face {
@@ -275,4 +276,3 @@ background-position: 0 -70px;
 
 
 /*END PS4 Controller Styling*/
-
