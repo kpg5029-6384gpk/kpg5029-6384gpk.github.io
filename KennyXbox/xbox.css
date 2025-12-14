@@ -1,8 +1,8 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
     background: url(animated.png);
-    height: 630px;
-    width: 750px;
+    height: 598px;
+    width: 806px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
@@ -20,10 +20,11 @@
 }
 
 .xbox .triggers {
-    width: 446px;
+    width: 470px;
     height: 121px;
     position: absolute;
-    left: 152px;
+    left: 168px;
+    top: -5px;
 }
 
 .xbox .trigger {
@@ -44,7 +45,7 @@
 }
 
 .xbox .bumper {
-    width: 170px;
+    width: 173px;
     height: 61px;
     background: url(bumper.png);
     opacity: 0;
@@ -52,10 +53,10 @@
 
 .xbox .bumpers {
     position: absolute;
-    width: 536px;
+    width: 562px;
     height: 61px;
-    left: 107px;
-    top: 129px;
+    left: 123px;
+    top: 119px;
 }
 
 .xbox .bumper.pressed {
@@ -78,7 +79,7 @@
     height: 45px;
     width: 45px;
     top: 258px;
-    left: 354px;
+    left: 380px;
     z-index: 0;
 }
 
@@ -114,20 +115,28 @@
     background: url(start-select.png);
     width: 33px;
     height: 33px;
-    opacity: 0;
+    opacity: 0; 
+   
 }
 
 .xbox .back.pressed, .xbox .start.pressed {
     opacity: 1;
+     
 }
 
 .xbox .back {
+    position: absolute;
     float: left;
+    top: -15px;
+    left: 24px;
 }
 
 .xbox .start {
+    position: absolute;
     background-position: 33px 0px;
     float: right;
+    top: -15px;
+    left: 140px;
 }
 
 .xbox .abxy {
@@ -135,7 +144,7 @@
     width: 153px;
     height: 156px;
     top: 192px;
-    left: 488px;
+    left: 545px;
 }
 
 .xbox .button {
@@ -177,10 +186,10 @@
 
 .xbox .sticks {
     position: absolute;
-    width: 371px;
+    width: 311px;
     height: 196px;
-    top: 239px;
-    left: 144px;
+    top: 225px;
+    left: 158px;
 }
 
 .xbox .stick {
@@ -201,16 +210,16 @@
 }
 
 .xbox .stick.right {
-    top: 113px;
-    left: 288px;
+    top: 107px;
+    left: 309px;
 }
 
 .xbox .dpad {
     position: absolute;
     width: 110px;
     height: 111px;
-    top: 345px;
-    left: 223px;
+    top: 325px;
+    left: 243px;
 }
 
 .xbox .face {
@@ -243,7 +252,7 @@
     width: 55px;
     height: 35px;
     top: 38px;
-    left: 0;
+    left: -2px;
 }
 
 .xbox .face.right {
@@ -251,7 +260,7 @@
     width: 55px;
     height: 35px;
     top: 38px;
-    right: 0;
+    right: -3px;
 }
 
 .xbox.half {
